@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "692963320507",
+    "project_id": "roomtestapp",
+    "storage_bucket": "roomtestapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692963320507:android:e0194a5e0c7fd8df79ff9e",
+        "android_client_info": {
+          "package_name": "com.example.homeactivity"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6VogKnJkuXx2NIPGY2o5LxibvxmXRyZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

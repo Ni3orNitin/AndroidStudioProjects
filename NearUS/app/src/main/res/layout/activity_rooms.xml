@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NearUs"
+        android:textColor="@color/text_white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Create and Join Card Box -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/banner_gradient_bg"
+        android:padding="24dp"
+        android:layout_marginBottom="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create &amp; Join Rooms"
+            android:textColor="@color/text_white"
+            android:textSize="22sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start video calls, watch movies together, chat with friends and enjoy multiplayer experiences in real-time."
+            android:textColor="#E9D5FF"
+            android:textSize="12sp"
+            android:layout_marginTop="6dp"
+            android:lineSpacingMultiplier="1.1"/>
+    </LinearLayout>
+
+    <!-- Create Interaction Element Block -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/quick_access_card_bg"
+        android:padding="20dp"
+        android:layout_marginBottom="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create Room"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/createRoomNameEt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter room name"
+            android:textColorHint="@color/muted_blue"
+            android:textColor="@color/text_white"
+            android:background="@drawable/edittext_bg"
+            android:paddingHorizontal="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="14sp"/>
+
+        <Button
+            android:id="@+id/createRoomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Generate Workspace Room"
+            android:backgroundTint="@color/accent_purple"
+            android:textColor="@color/text_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+
+    <!-- Join Interaction Element Block -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/quick_access_card_bg"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Join Room"
+            android:textColor="@color/text_white"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/roomCodeEt"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Enter Room ID"
+            android:textColorHint="@color/muted_blue"
+            android:textColor="@color/text_white"
+            android:background="@drawable/edittext_bg"
+            android:paddingHorizontal="14dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="12dp"
+            android:textSize="14sp"
+            android:inputType="textCapCharacters"/>
+
+        <Button
+            android:id="@+id/joinRoomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="Connect to Room Session"
+            android:backgroundTint="#10B981"
+            android:textColor="@color/text_white"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>

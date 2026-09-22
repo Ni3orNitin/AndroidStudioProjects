@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_color">#FF5722</color>
+    <color name="text_color">#9C27B0</color>
+    <color name="text_color2">#4C5EAF</color>
+    <color name="text_colorswitch">#F321EF</color>
+    <color name="black">#F8F5F5</color>
+</resources>

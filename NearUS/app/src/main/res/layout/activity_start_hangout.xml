@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Hangout"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_marginTop="80dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Room ID to join"
+        android:textColor="@color/hint"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/roomCodeEt"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:hint="Enter Room ID"
+        android:textColor="@color/white"
+        android:textColorHint="@color/hint"
+        android:background="@drawable/edittext_bg"
+        android:padding="16dp"
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:id="@+id/joinRoomBtn"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:text="Join Room"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:background="@drawable/button_bg"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or"
+        android:textColor="@color/hint"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="@drawable/edittext_bg"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create New Hangout"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create a room and invite your friends"
+            android:textColor="@color/hint"
+            android:textSize="14sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/createRoomBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Room"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/button_bg"
+            android:layout_marginTop="25dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>
